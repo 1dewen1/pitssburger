@@ -1,0 +1,519 @@
+/* all different pc */
+@media screen and (min-width: 1025px) {
+    .slides {
+        background-size: 100% 700px;
+    }
+
+    .wrapper {
+		height: 700px;
+	}
+
+.wrapper label {
+	z-index: 100;
+}
+
+	.footer-nav :hover .inv-text  {
+		position: absolute;
+		top: -388%;
+	}
+
+	.footer-nav :hover .inv-text1  {
+		position: absolute;
+		top: -115%;
+	}
+
+	.footer-nav :hover .inv-text2  {
+		position: absolute;
+		top: -140%;
+	}
+
+	.footer-nav :hover .inv-text3 {
+		position: absolute;
+		top: -210%;
+	}
+}
+
+/* big pc */
+@media (min-width: 1201px) and (height: 1080px) {
+    .slides {
+        background-size: 100% 900px;
+    }
+
+    .wrapper {
+		height: 900px;
+	}
+
+	.footer-nav :hover .inv-text  {
+		position: absolute;
+		top: -305%;
+	}
+
+	.footer-nav :hover .inv-text1  {
+		position: absolute;
+		top: -105%;
+	}
+
+	.footer-nav :hover .inv-text2  {
+		position: absolute;
+		top: -120%;
+	}
+
+	.footer-nav :hover .inv-text3 {
+		position: absolute;
+		top: -176%;
+	}
+}
+
+@media (min-width: 1201px) and (height: 1050px) {
+    .slides {
+        background-size: 100% 900px;
+    }
+
+    .wrapper {
+		height: 900px;
+	}
+
+	.footer-nav :hover .inv-text  {
+		position: absolute;
+		top: -290%;
+	}
+
+	.footer-nav :hover .inv-text1  {
+		position: absolute;
+		top: -80%;
+	}
+
+	.footer-nav :hover .inv-text2  {
+		position: absolute;
+		top: -100%;
+	}
+
+	.footer-nav :hover .inv-text3 {
+		position: absolute;
+		top: -155%;
+	}
+}
+
+@media (min-width: 1201px) and (height: 900px) {
+    .slides {
+        background-size: 100% 750px;
+    }
+
+    .wrapper {
+		height: 750px;
+	}
+
+	.footer-nav :hover .inv-text  {
+		position: absolute;
+		top: -355%;
+	}
+
+	.footer-nav :hover .inv-text1  {
+		position: absolute;
+		top: -110%;
+	}
+
+	.footer-nav :hover .inv-text2  {
+		position: absolute;
+		top: -135%;
+	}
+
+	.footer-nav :hover .inv-text3 {
+		position: absolute;
+		top: -200%;
+	}
+}
+
+@media (min-width: 1201px) and (height: 768px) {
+    .slides {
+        background-size: 100% 650px;
+    }
+
+    .wrapper {
+		height: 650px;
+	}
+
+	.footer-nav :hover .inv-text  {
+		position: absolute;
+		top: -395%;
+	}
+
+	.footer-nav :hover .inv-text1  {
+		position: absolute;
+		top: -110%;
+	}
+
+	.footer-nav :hover .inv-text2  {
+		position: absolute;
+		top: -135%;
+	}
+
+	.footer-nav :hover .inv-text3 {
+		position: absolute;
+		top: -210%;
+	}
+}
+
+@media (min-width: 1201px) and (height: 1024px) {
+    .slides {
+        background-size: 100% 870px;
+    }
+
+    .wrapper {
+		height: 870px;
+	}
+
+	.footer-nav :hover .inv-text  {
+		position: absolute;
+		top: -303%;
+	}
+
+	.footer-nav :hover .inv-text1  {
+		position: absolute;
+		top: -90%;
+	}
+
+	.footer-nav :hover .inv-text2  {
+		position: absolute;
+		top: -110%;
+	}
+
+	.footer-nav :hover .inv-text3 {
+		position: absolute;
+		top: -165%;
+	}
+}
+
+@media (min-width: 1201px) and (height: 960px) {
+    .slides {
+        background-size: 100% 800px;
+    }
+
+    .wrapper {
+		height: 800px;
+	}
+
+	.footer-nav :hover .inv-text  {
+		position: absolute;
+		top: -338%;
+	}
+
+	.footer-nav :hover .inv-text1  {
+		position: absolute;
+		top: -110%;
+	}
+
+	.footer-nav :hover .inv-text2  {
+		position: absolute;
+		top: -130%;
+	}
+
+	.footer-nav :hover .inv-text3 {
+		position: absolute;
+		top: -190%;
+	}
+}
+
+@media (min-width: 1201px) and (height: 800px) {
+    .slides {
+        background-size: 100% 670px;
+    }
+
+    .wrapper {
+		height: 670px;
+	}
+
+	.footer-nav :hover .inv-text  {
+		position: absolute;
+		top: -388%;
+	}
+
+	.footer-nav :hover .inv-text1  {
+		position: absolute;
+		top: -115%;
+	}
+
+	.footer-nav :hover .inv-text2  {
+		position: absolute;
+		top: -140%;
+	}
+
+	.footer-nav :hover .inv-text3 {
+		position: absolute;
+		top: -210%;
+	}
+}
+
+@media (min-width: 1201px) and (height: 720px) {
+    .slides {
+        background-size: 100% 600px;
+    }
+
+    .wrapper {
+		height: 600px;
+	}
+
+	.footer-nav :hover .inv-text  {
+		position: absolute;
+		top: -425%;
+	}
+
+	.footer-nav :hover .inv-text1  {
+		position: absolute;
+		top: -120%;
+	}
+
+	.footer-nav :hover .inv-text2  {
+		position: absolute;
+		top: -150%;
+	}
+
+	.footer-nav :hover .inv-text3 {
+		position: absolute;
+		top: -230%;
+	}
+}
+
+@media (min-width: 1201px) and (height: 600px) {
+    .slides {
+        background-size: 100% 500px;
+    }
+
+    .wrapper {
+		height: 500px;
+	}
+
+	.footer-nav :hover .inv-text  {
+		position: absolute;
+		top: -455%;
+	}
+
+	.footer-nav :hover .inv-text1  {
+		position: absolute;
+		top: -120%;
+	}
+
+	.footer-nav :hover .inv-text2  {
+		position: absolute;
+		top: -150%;
+	}
+
+	.footer-nav :hover .inv-text3 {
+		position: absolute;
+		top: -240%;
+	}
+}
+
+/* defined pc */
+@media screen and (width: 1152px) and (height: 864px) {
+    .slides {
+        background-size: 100% 740px;
+    }
+
+    .wrapper {
+		height: 740px;
+	}
+
+	.footer-nav :hover .inv-text  {
+		position: absolute;
+		top: -340%;
+	}
+
+	.footer-nav :hover .inv-text1  {
+		position: absolute;
+		top: -85%;
+	}
+
+	.footer-nav :hover .inv-text2  {
+		position: absolute;
+		top: -110%;
+	}
+
+	.footer-nav :hover .inv-text3 {
+		position: absolute;
+		top: -176%;
+	}
+}
+
+@media screen and (width: 1024px) and (height: 768px) {
+    .slides {
+        background-size: 100% 640px;
+    }
+
+    .wrapper {
+		height: 640px;
+	}
+
+	.footer-nav :hover .inv-text  {
+		position: absolute;
+		top: -400%;
+	}
+
+	.footer-nav :hover .inv-text1  {
+		position: absolute;
+		top: -115%;
+	}
+
+	.footer-nav :hover .inv-text2  {
+		position: absolute;
+		top: -140%;
+	}
+
+	.footer-nav :hover .inv-text3 {
+		position: absolute;
+		top: -215%;
+	}
+}
+
+@media screen and (width: 800px) and (height: 600px) {
+    .slides {
+        background-size: 100% 500px;
+    }
+
+    .wrapper {
+		height: 500px;
+	}
+
+	.footer-nav :hover .inv-text  {
+		position: absolute;
+		top: -450%;
+	}
+
+	.footer-nav :hover .inv-text1  {
+		position: absolute;
+		top: -115%;
+	}
+
+	.footer-nav :hover .inv-text2  {
+		position: absolute;
+		top: -145%;
+	}
+
+	.footer-nav :hover .inv-text3 {
+		position: absolute;
+		top: -235%;
+	}
+}
+
+/* moboles and planshets */
+@media (min-width: 481px) and (max-width: 768px) {
+    .slides {
+        background-size: 100% 350px;
+    }
+
+    .wrapper {
+		height: 350px;
+	}
+
+	.footer-conteiner {
+		z-index: 500;
+	}
+
+	.footer-nav :hover .inv-text  {
+		position: absolute;
+		top: -450%;
+	}
+
+	.footer-nav :hover .inv-text1  {
+		position: absolute;
+		top: -135%;
+	}
+
+	.footer-nav :hover .inv-text2  {
+		position: absolute;
+		top: -145%;
+	}
+
+	.footer-nav :hover .inv-text3 {
+		position: absolute;
+		top: -235%;
+	}
+
+	.footer-block {
+  		float: left;
+  		height: 40px;
+  		width:  100%;
+  		/* border:  1px solid white; */
+	}
+
+	.footer-conteiner {
+  		position: fixed;
+  		top: 65%;
+	}
+
+	.logo {
+		position: absolute;
+		top: 25px;
+    	left: 160px;
+	}
+
+	/* мобильная ссылка */
+	.nav-a {
+
+	}
+
+	.social {
+		float: left;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .slides {
+        background-size: 100% 210px;
+    }
+
+    .wrapper {
+		height: 210px;
+	}
+
+	.footer-conteiner {
+		z-index: 500;
+	}
+
+	.footer-nav :hover .inv-text  {
+		position: absolute;
+		top: -450%;
+	}
+
+	.footer-nav :hover .inv-text1  {
+		position: absolute;
+		top: -135%;
+	}
+
+	.footer-nav :hover .inv-text2  {
+		position: absolute;
+		top: -145%;
+	}
+
+	.footer-nav :hover .inv-text3 {
+		position: absolute;
+		top: -235%;
+	}
+
+	.footer-block {
+  		float: left;
+  		height: 40px;
+  		width:  100%;
+  		/* border:  1px solid white; */
+	}
+
+	.footer-conteiner {
+  		position: fixed;
+  		top: 55%;
+	}
+
+	.logo {
+		position: absolute;
+		top: 5px;
+    	left: 90px;
+	}
+
+	/* мобильная ссылка */
+	.nav-a {
+
+	}
+
+	.social {
+		float: left;
+	}
+}

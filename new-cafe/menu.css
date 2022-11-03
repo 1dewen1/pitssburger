@@ -1,0 +1,172 @@
+/* сброс стилей браузера */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1.2;
+}
+ol { 
+  padding-left: 1.4em;
+  list-style: decimal;
+}
+ul {
+  padding-left: 1.4em;
+  list-style: square;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+} 
+
+* {
+  box-sizing: border-box;
+}
+/* конец сброса стилей браузера */
+
+body {
+  background-color: #dbd8c9;
+}
+
+.adapevnosug {
+  position: relative;
+}
+
+.adapevnosug-edsa {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.adapevnosug-nasav:checked + .adapevnosug-kolas {
+  position: static;
+  opacity: 100;
+}
+
+.adapevnosug-kolas {
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: opacity 0.6s ease-out;
+  transition: opacity 0.6s ease-out;
+}
+
+.adapevnosug-kolas img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.vealulu-kadsan {
+  background: rgba(0, 0, 0, 0.28);
+  border-radius: 50%;
+  color: #393939;
+  cursor: pointer;
+  display: none;
+  font-size: 40px;
+  height: 40px;
+  line-height: 35px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  cursor: pointer;
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  text-align: center;
+  width: 40px;
+  z-index: 10;
+}
+
+.vealulu-kadsan.prev {
+  left: 2%;
+}
+
+.vealulu-kadsan.next {
+  right: 2%;
+}
+
+.vealulu-kadsan:hover {
+  background: rgba(0, 0, 0, 0.8);
+  color: #f3be81;
+}
+
+#adapevnosug-1:checked ~ .nedsug-1,
+#adapevnosug-2:checked ~ .nedsug-2,
+#adapevnosug-3:checked ~ .nedsug-3 {
+  display: block;
+}
+
+.esamon-getusa {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 2%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 10;
+}
+
+.esamon-getusa li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.adapevnosug-bullet {
+  color: black;
+  cursor: pointer;
+  display: block;
+  font-size: 35px;
+}
+
+.adapevnosug-bullet:hover {
+  color: black;
+}
+
+#adapevnosug-1:checked
+  ~ .nedsug-1
+  ~ .esamon-getusa
+  li:nth-child(1)
+  .adapevnosug-bullet,
+#adapevnosug-2:checked
+  ~ .nedsug-2
+  ~ .esamon-getusa
+  li:nth-child(2)
+  .adapevnosug-bullet,
+#adapevnosug-3:checked
+  ~ .nedsug-3
+  ~ .esamon-getusa
+  li:nth-child(3)
+  .adapevnosug-bullet {
+  color: #dbd8c9;
+}
+
+.back {
+  position: fixed;
+  top: 0.5%;
+  left: 48.75%;
+  width: 50px;
+  height: 25px;
+  background-color: #dbd8c9;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  z-index: 100;
+}
+
+.back .back-a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Great Vibes', cursive;
+}
+

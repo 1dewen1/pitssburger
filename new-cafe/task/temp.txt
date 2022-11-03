@@ -1,0 +1,43 @@
+/* all different pc */
+@media not handheld, (height: 600px), (height: 720px), (height: 800px), (height: 960px), (height: 1024px), (height: 768px), (height: 900px), (height: 1050px), (height: 1080px) {
+    .slides {
+        background-size: 100% 700px;
+    }
+
+    .wrapper {
+		height: 700px;
+	}
+
+.wrapper label {
+	z-index: 100;
+}
+
+	.footer-nav :hover .inv-text  {
+		position: absolute;
+		top: -388%;
+	}
+
+	.footer-nav :hover .inv-text1  {
+		position: absolute;
+		top: -115%;
+	}
+
+	.footer-nav :hover .inv-text2  {
+		position: absolute;
+		top: -140%;
+	}
+
+	.footer-nav :hover .inv-text3 {
+		position: absolute;
+		top: -210%;
+	}
+}
+
+
+
+из горизонт меню сделать вертикальное меню					
+оставить только переключение цвета при наведении у меню		
+посмотреть,  как выглядит лого								
+вытащить блоки с соц сетями и нижним лого вниз футера
+переделать ссылку на ссылке меню  							
+настроить z-indexы у выпадающих панелей

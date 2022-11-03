@@ -1,0 +1,211 @@
+/* сброс стилей браузера */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1.2;
+}
+ol { 
+  padding-left: 1.4em;
+  list-style: decimal;
+}
+ul {
+  padding-left: 1.4em;
+  list-style: square;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+} 
+
+* {
+  box-sizing: border-box;
+}
+/* конец сброса стилей браузера */
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.footer-conteiner {
+  position: fixed;
+  top: 90%;
+  height: 10%;
+  min-height: 65px;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  text-decoration: none;
+  z-index: 10;
+}
+
+.footer-block {
+  float: left;
+  height: 100px;
+  width:  10%;
+  /*  border-right:  1px solid white; */
+  /* border-top:  1px solid white; */
+  padding-top: 1%;
+}
+
+.nav-a {
+  text-decoration:  none;
+  font-family: 'Great Vibes', cursive;
+  color:  white;
+}
+
+.nav-a:hover {
+  font-family: 'Great Vibes', cursive;
+  color: #cc9832;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+
+.footer-logo {
+  float: right;
+  width: 50px; 
+  height: 50px;
+  background: url(logo-img.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+
+.social {
+  float: right;
+  width: 30%;
+  color: white;
+}
+
+.logo {
+  position: absolute;
+  left:  50px;
+  top:  50px;
+  height: 200px;
+  width: 150px;
+  z-index: 100;
+  background-color: rgba(153,153,153,.9);
+  border: 2px solid black; 
+  border-radius: 10px;
+}
+
+.logo-img {
+  margin-top:  15px;
+  margin-left: 35px;
+  width: 75px;
+  height:  75px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.logo-text {
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+}
+
+.social .social-img .social-img-a {
+  width: 40px; 
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 32px 32px;
+  background-position: center;
+  margin: auto;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.inv-text, .inv-text1, .inv-text2, .inv-text3 {
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+  margin-left: 1.1% ;
+  background-color: rgba(153,153,153,.9);
+  border: 1px solid black;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity .75s ease-in;
+  -webkit-transition: opacity .75s ease-in;
+  -moz-transition: opacity .75s ease-in;
+  -o-transition: opacity .75s ease-in;
+}
+
+.footer-nav :hover .inv-text  {
+  position: absolute;
+  top: -325%;
+  left: -1%;
+  opacity: 1;
+  text-align: center;
+  border: 2px solid black;
+  padding: 0.5%;
+  transition: opacity .5s ease-in;
+  -webkit-transition: opacity .5s ease-in;
+  -moz-transition: opacity .5s ease-in;
+  -o-transition: opacity .5s ease-in;
+}
+
+.footer-nav :hover .inv-text1  {
+  position: absolute;
+  top: -100%;
+  right: 82%;
+  opacity: 1;
+  text-align: center;
+  border: 2px solid black;
+  padding: 0.5%;
+  transition: opacity .5s ease-in;
+  -webkit-transition: opacity .5s ease-in;
+  -moz-transition: opacity .5s ease-in;
+  -o-transition: opacity .5s ease-in;
+}
+
+.footer-nav :hover .inv-text2  {
+  position: absolute;
+  top: -120%;
+  opacity: 1;
+  text-align: center;
+  border: 2px solid black;
+  padding: 0.5%;
+  transition: opacity .5s ease-in;
+  -webkit-transition: opacity .5s ease-in;
+  -moz-transition: opacity .5s ease-in;
+  -o-transition: opacity .5s ease-in;
+}
+
+.footer-nav :hover .inv-text3  {
+  position: absolute;
+  top: -180%;
+  left: 23.5%;
+  opacity: 1;
+  text-align: center;
+  border: 2px solid black;
+  padding: 0.5%;
+  transition: opacity .5s ease-in;
+  -webkit-transition: opacity .5s ease-in;
+  -moz-transition: opacity .5s ease-in;
+  -o-transition: opacity .5s ease-in;
+}
+
+.inv-text, .inv-text1, .inv-text2, .inv-text3{
+  transition: opacity  ease-in;
+  -webkit-transition: opacity  ease-in;
+  -moz-transition: opacity  ease-in;
+  -o-transition: opacity  ease-in;
+}
+
+.footer-nav :hover .inv-text .qr {
+  border: 1px solid black;
+}
